@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(6, 40, 99);
+    padding: 0 30px;
+}
+
+.logo{
+    text-align: center;
+    padding: 50px 0;
+    position: relative;
+    z-index: 1;
+}
+
+form{
+    background-color: #fff;
+    min-width: 100px;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 20px 20px 20px 0;
+    position: relative;
+    z-index: 1;
+}
+
+form .heading{
+    text-align: center;
+    padding: 10px ;
+    margin-bottom: 30px;
+}
+
+form h1{
+    color: #043e5e;
+    font-size: 20px;
+    padding-bottom: 5px;
+
+}
+
+form p{
+    font-size: 13px;
+    color: #4a5544;
+    font-family: karla,sans-serif;
+}
+
+.form-group{
+    margin-bottom: 30px;
+}
+
+.form-group label{
+    font-size: 13px;
+    display: block;
+    font-weight: 700px;
+    margin-bottom: 10px;
+    color: #4a5564;
+}
+
+.form-group input, 
+.form-group select{
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    color: #1a2e2c;
+    padding: 5px 10px;
+    background-color: rgb(237, 242, 247);
+    border: none;
+}
+
+.submit button{
+    width: 100%;
+    background-color: rgb(8, 62, 158);
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700px;
+    border: none;
+    border-radius: 10px 10px 10px 0;
+}
+
+p.link{
+    text-align: center;
+    margin: 40px 0;
+}
+
+p a{
+    color: #fff;
+    text-decoration: none;
+}
